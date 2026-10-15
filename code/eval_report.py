@@ -208,7 +208,7 @@ def main():
     print(f"[write] 摘要已保存 -> {summary}")
 
     print("\n" + "=" * 70)
-    print(f"P3 完成：{args.out_dir} 下应有 loss_curve.png / samples.md / eval_summary.md")
+    print(f"评测完成：{args.out_dir} 下应有 loss_curve.png / samples.md / eval_summary.md")
     print(f"best val {best_val:.4f}  PPL {math.exp(min(20, best_val)):.2f}")
     print("=" * 70)
 
