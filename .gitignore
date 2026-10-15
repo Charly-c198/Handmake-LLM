@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 虚拟环境 / IDE ----
+venv/
+.venv/
+.idea/
+.vscode/
+
+# ---- 模型权重 / 数据集（太大，不入库；用脚本重新生成）----
+*.pt
+*.bin
+*.safetensors
+*.pkl
+
+# ---- 训练产物 / 日志 ----
+*.log
+out/
+data/
+
+# ---- 临时文件 ----
+.edgeprof*
+*.tmp
+.DS_Store
+Thumbs.db

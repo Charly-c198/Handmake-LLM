@@ -1,0 +1,21 @@
+# 核心（跑通全流程只需这两个）
+torch>=2.7            # 必须用 cu128+ 的 wheel 装，见 README
+numpy>=1.26
+
+# 数据处理（BPE 分词器 + 数据集）
+tokenizers>=0.19
+datasets>=2.20
+
+# 微调现成模型（手册第 9 章才需要）
+# transformers>=4.44
+# peft>=0.12
+# trl>=0.10
+# accelerate>=0.33
+# bitsandbytes>=0.45
+
+# 训练可视化
+# tensorboard>=2.16
+
+# 安装命令：
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cu128
+#   python -m pip install numpy tokenizers datasets
